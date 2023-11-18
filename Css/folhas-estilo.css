@@ -1,0 +1,49 @@
+*{/*Zerando formatações da página*/
+    margin: 0;
+    padding: 0;
+}
+
+body{/*Formatação geral do conteudo da página*/
+    background-color: rgb(155, 255, 255);
+}
+
+#formatacao-page{/*Formatação pilar da página*/
+    width: 100%;
+}
+
+a{/*Formatação geral dos links*/
+    text-decoration: none;
+    color: rgb(79, 5, 5);
+    font-size: 15px;
+}
+
+ul>li{/*Formatação geral das listas*/
+    padding: 3px;
+    list-style: none;
+}
+
+/*Formatações realizadas no NavBar*/
+header{
+    width: 90%;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#menu_esquerdo ul>li{
+    float: left;
+}
+
+#menu_direito ul>li{
+    float: right;
+}
+
+#logo_empresa{
+    clear: both;
+}
+
+#barra_pesquisa{
+    float: right;
+}
+/*Formatações realizadas no NavBar*/
+
+
