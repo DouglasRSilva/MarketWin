@@ -4,11 +4,15 @@
 }
 
 body{/*Formatação geral do conteudo da página*/
+    margin-top: 20px;
     background-color: rgb(155, 255, 255);
 }
 
 #formatacao-page{/*Formatação pilar da página*/
-    width: 100%;
+    background: rgb(107, 107, 251);
+    min-width: 1200px;
+    width: 1200px;
+    max-width: 1200px;
 }
 
 a{/*Formatação geral dos links*/
@@ -23,27 +27,166 @@ ul>li{/*Formatação geral das listas*/
 }
 
 /*Formatações realizadas no NavBar*/
-header{
-    width: 90%;
-    border: 1px solid red;
+
+#formatacao-page{
     margin: auto;
 }
 
-#menu_esquerdo ul>li{
-    float: left;
+header ul li{
+    display: inline-block;
+    padding: 5px;
 }
 
-#menu_direito ul>li{
+header a{
+    font-size: 16px;
+}
+
+#menu_esquerdo{
+    width: 580px;
+    float: left;
+    border: 1px solid red;
+}
+
+#menu_direito{
+    width: 580px;
+    text-align: right;
     float: right;
+    border: 1px solid red;
 }
 
 #logo_empresa{
-    clear: both;
+    width: 200px;
+    max-height: px;
+    height: 54px; /*Espaçamento a ser verificado*/
+    min-height: 30px;
+    float: left;
+    border: 1px solid red;
 }
 
 #barra_pesquisa{
+    width: 900px;
     float: right;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+#barra_pesquisa>input{
+    width: 800px;
+    height: 40px;
+}
+
+#barra_pesquisa>button{
+    width: 70px;
+    height: 40px;
+}
+
+#outros{
+    clear: both;
+    text-align: center;
+    display: block;
+    width: 1200px;
+    height: 40px;
+    line-height: 2em;
+    border: 1px solid green;
 }
 /*Formatações realizadas no NavBar*/
 
+/*Inicio Formatação do corpo da página*/
+article{
+    text-align: center;
+    width: 1200px;
+    height: 3000px;
+    border: 1px solid red;
+}
 
+#efeito_carrossel{
+    margin: auto;
+    width: 1150px;
+    height: 150px;
+    border: 1px solid green;
+}
+
+#carrossel_conteudo ul>li{
+    display: inline-block;
+}
+
+#conteudo_produto1{
+    border: 1px solid red;
+    max-width: 1200px;
+    min-width: 1200px;
+}
+
+#conteudo_produto1>div{
+    width: 180px;
+    height: 175px;
+    display: inline-block;
+    margin: 3px 4px;
+    background: white;
+    border: 1px solid black;
+}
+
+#banner{
+    margin: auto;
+    width: 1150px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#lojas_oficiais>div{
+    display: inline-block;
+    width: 270px;
+    height: 150px;
+    margin: 3px 2px;
+    border: 1px solid black;
+}
+
+#categorias_mais_buscadas>div{
+    display: inline-block;
+    width: 215px;
+    height: 140px;
+    margin: 1px;
+    border: 1px solid black;
+}
+/*Fim Formatação do corpo da página*/
+
+/*Inicio de formatação do Footer*/
+
+footer{
+    min-width: 1200px;
+    width: 1200px;
+    max-width: 1200px;
+    border: 1px solid yellow;
+}
+
+#formato-footer{
+    width: 1170px;
+    margin: auto;
+}
+
+.contato, #informativo{
+    display: inline-block;
+}
+
+footer h3{
+    font-size: 20px;
+}
+
+footer a{
+    font-size: 15px;
+}
+
+.contato{
+    min-width: 150px;
+    width: 150px;
+    max-width: 150px;
+    border: 1px solid black;
+}
+
+#informativo{
+    min-width: 540px;
+    width: 540px;
+    max-width: 540px;
+    border: 1px solid green;
+}
+
+/*Fim de formatação do Footer* 520/
