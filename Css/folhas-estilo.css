@@ -5,11 +5,9 @@
 
 body{/*Formatação geral do conteudo da página*/
     margin-top: 20px;
-    background-color: rgb(155, 255, 255);
 }
 
 #formatacao-page{/*Formatação pilar da página*/
-    background: rgb(107, 107, 251);
     min-width: 1200px;
     width: 1200px;
     max-width: 1200px;
@@ -17,8 +15,12 @@ body{/*Formatação geral do conteudo da página*/
 
 a{/*Formatação geral dos links*/
     text-decoration: none;
-    color: rgb(79, 5, 5);
+    color: #000;
     font-size: 15px;
+}
+
+a:hover{
+    color: rgb(47, 108, 108);
 }
 
 ul>li{/*Formatação geral das listas*/
@@ -30,6 +32,10 @@ ul>li{/*Formatação geral das listas*/
 
 #formatacao-page{
     margin: auto;
+}
+
+header{
+    background: #86e3ff;
 }
 
 header ul li{
@@ -95,7 +101,6 @@ header a{
 article{
     text-align: center;
     width: 1200px;
-    height: 3000px;
     border: 1px solid red;
 }
 
@@ -152,41 +157,34 @@ article{
 /*Inicio de formatação do Footer*/
 
 footer{
+    margin-top: 30px;
     min-width: 1200px;
     width: 1200px;
     max-width: 1200px;
-    border: 1px solid yellow;
+    height: 150px;
+    border: 1px solid purple;
 }
 
-#formato-footer{
-    width: 1170px;
-    margin: auto;
+#formatacao-footer li{
+    width: 160px;
+    border: 1px solid red;
+    float: left;
 }
 
-.contato, #informativo{
-    display: inline-block;
+#formatacao-footer #cadastrar{
+    float: right;
+    width: 470px;
 }
 
-footer h3{
-    font-size: 20px;
+#formatacao-footer li>h3{
+    font-size: 18px;
 }
 
-footer a{
-    font-size: 15px;
+#formatacao-footer li>a{
+    padding: 2px;
+    display: block;
 }
 
-.contato{
-    min-width: 150px;
-    width: 150px;
-    max-width: 150px;
-    border: 1px solid black;
-}
 
-#informativo{
-    min-width: 540px;
-    width: 540px;
-    max-width: 540px;
-    border: 1px solid green;
-}
 
 /*Fim de formatação do Footer* 520/
